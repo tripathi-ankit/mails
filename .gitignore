@@ -1,5 +1,2 @@
 .DS_Store
 *.sublime-workspace
-upload/*
-!upload/index.html
-
