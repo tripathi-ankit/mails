@@ -1,6 +1,7 @@
 # Mail
 Archive for [Postmaster](https://github.com/RimeOfficial/postmaster)
 
-```
-Upload folder used storing attachments for drafting only!
-```
+## `upload` folder is used to store attachments for drafting purpose only
+Example:
+- http://rimeofficial.github.io/mail/index.html
+- http://rimeofficial.github.io/mail/Test.html
