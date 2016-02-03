@@ -141,7 +141,6 @@ p.footer a { color: #777777;  }
 }
 .content {
   padding: 15px;
-  max-width: 500px;
   display: block;
   border-collapse: collapse;
 }
