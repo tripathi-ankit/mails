@@ -22,20 +22,15 @@
 
 <p>Hi {_to_name} (<a href="{_app_base_url}/@{username}">@{username}</a>),</p>
 
-<p>
-  You have added an email address.<br>
-  New email address: <b>{email_id}</b>
-</p>
+<p>Click here to sign in,</p>
+
+<a class="btn btn-block" href="{_app_base_url}/auth/sign-in-email/{user_id}/{email_local}/{email_domain}/{verify_email_secret}">Sign in</a>
+
+<p>or go to {_app_base_url}/auth/sign-in-email/{user_id}/{email_local}/{email_domain}/{verify_email_secret}</p>
 
 <p>
-  If you didn't make this change, please <a href="{_app_base_url}/home/faq">let us know</a>.
-</p>
-
-<br>
-
-<p>
-  Thanks!<br>
-  &mdash; The {_app_name} (<a href="{_app_base_url}/@rime">@rime</a>) Team
+  Thanks for joining.<br>
+  &mdash; The <?php echo app_name(); ?> Team
 </p>
 
                     <hr>

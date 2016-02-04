@@ -22,17 +22,19 @@
 
 <p>Hi {_to_name} (<a href="{_app_base_url}/@{username}">@{username}</a>),</p>
 
-<p>Help us secure your GitHub account by verifying your email address {_to_email}</p>
-
-<a class="btn btn-block" href="{_app_base_url}/auth/verify-email/{user_id}/{email_local}/{email_domain}/{email_key_secret}">Verify Email</a>
-
 <p>
-  Button not working? Paste the following link into your browser:
-  {_app_name}/auth/verify-email/{user_id}/{email_local}/{email_domain}/{email_key_secret}
+  You have added an email address.<br>
+  New email address: <b>{new_email_address}</b>
 </p>
 
 <p>
-  Happy {_current_day}!<br>
+  If you didn't make this change, please <a href="{_app_base_url}/home/faq">let us know</a>.
+</p>
+
+<br>
+
+<p>
+  Thanks!<br>
   &mdash; The {_app_name} (<a href="{_app_base_url}/@rime">@rime</a>) Team
 </p>
 
