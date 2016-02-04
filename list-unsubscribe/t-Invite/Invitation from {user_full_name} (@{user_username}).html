@@ -33,24 +33,30 @@
 </p>
 <br>
 
-<a class="btn-btn-block" href="{_app_base_url}/?invited_by='.{username}">Click here to join!!</a>
+<a class="btn btn-block" href="{_app_base_url}/?invited_by='.{user_username}">Click here to join!!</a>
 <br>
 
 <p>
-  <a href="{_app_base_url}/?invited_by={username}"><img src="https://s3.amazonaws.com/rime-mail/inline-image/20140718-183105_Untitled-5.png">
+  <a href="{_app_base_url}/?invited_by={user_username}"><img src="https://s3.amazonaws.com/rime-mail/inline-image/20140718-183105_Untitled-5.png"></a>
 </p>
 
 <br>
 <br>
 
-<a href="{_app_base_url}/@{username}"><img src="{user_profile_image_url}" style="display:inline-block; width:80px; border-radius:50%"></a>
-
-<p>
-  <strong>{user_full_name}</strong> (<a href="{_app_base_url}/@{username}">@{username}</a>)
-  <br>
-  {user_bio}<br>
-  {user_location}
-</p>
+<table class="media">
+  <tbody>
+    <tr>
+      <td class="media-object"><img class="img-circle" src="{user_profile_image_url}"></td>
+      <td>
+        <h4><a href="{_app_base_url}/@{user_username}">{user_full_name} (@{user_username})</a></h4>
+        <p>
+          {user_bio}<br>
+          {user_location}
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
                     <hr>
 
