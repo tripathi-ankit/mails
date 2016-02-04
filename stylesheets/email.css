@@ -38,7 +38,7 @@ a { color: #DA2E75; }
 
 img { display:inline-block; width:100%; max-width:100%; }
 
-img .img-circle { border-radius: 50%; }
+img.img-circle { border-radius: 50%; }
 
 hr { margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #eee; box-sizing: content-box; height: 0; }
 
