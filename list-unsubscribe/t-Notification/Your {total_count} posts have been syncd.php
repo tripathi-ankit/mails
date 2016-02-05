@@ -20,7 +20,7 @@
 
                     <hr>
 
-<p>Hi {_to_name} (<a href="{_app_base_url}/@{user_username}">@{user_username}), your {total_count} posts have been updated.</p>
+<p>Hi {_to_name} (<a href="{_app_base_url}/@{user_username}">@{user_username}</a>), your {total_count} posts have been updated.</p>
 <br>
 
 {actor_post_feeds}
@@ -32,23 +32,19 @@
     </small>
   </p>
 
-  {url_data}
-    <a href="{_app_base_url}/url/{url_id}">
-      <img src="{thumbnail_url}">
-    </a>
+  <a href="{url_embed_url}">
+    <img src="{url_embed_thumbnail_url}">
+  </a>
 
-    <p>
-      <strong>
-        <a href="{_app_base_url}/url/{url_id}">{title}</a>
-      </strong>
-      <br>
-      {description}
-    </p>
-  {/url_data}
+  <p>
+    <strong>
+      <a href="{url_embed_url}">{url_embed_title}</a>
+    </strong>
+    <br>
+    {url_embed_description}
+  </p>
 
-  <br>
   <hr>
-  <br>
 {/actor_post_feeds}
 
 <br>
