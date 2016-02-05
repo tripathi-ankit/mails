@@ -20,38 +20,19 @@
 
                     <hr>
 
-<p>Hi {_to_name} (<a href="{_app_base_url}/@{user_username}">@{user_username}</a>), your {total_count} posts have been updated.</p>
-<br>
+<p>
+  <strong>{user_full_name}</strong> (<a href="{_app_base_url/@{user_username}">@{user_username}</a>)
 
-{actor_post_feeds}
-  <p>
-    <small>
-      <strong>
-        <span class="strtoupper">{service}</span>: {post_count} Posts
-      </strong>
-    </small>
-  </p>
+  is now following
 
-  <a href="{url_embed_url}">
-    <img src="{url_embed_thumbnail_url}">
-  </a>
-
-  <p>
-    <strong>
-      <a href="{url_embed_url}">{url_embed_title}</a>
-    </strong>
-    <br>
-    {url_embed_description}
-  </p>
-
-  <hr>
-{/actor_post_feeds}
+  {notif_full_name} (<a href="{_app_base_url}/@{notif_username}">@{notif_username}</a>)
+</p>
 
 <br>
 
 <p>
-  Keep Posting!<br>
-  &mdash; The {_app_name} Team
+  Have fun!<br>
+  &mdash; The {_app_name} (<a href="{_app_base_url}/@rime">@rime</a>) Team
 </p>
 
                     <hr>

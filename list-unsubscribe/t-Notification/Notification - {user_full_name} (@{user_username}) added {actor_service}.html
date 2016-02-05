@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html;charset=utf-8">
-    <!-- <link rel="stylesheet" type="text/css" href="../asset/stylesheet.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="../../stylesheets/email.css"> -->
     <link rel="stylesheet" type="text/css" href="https://rimeofficial.github.io/mail/stylesheets/email.css">
   </head>
   <body>
@@ -14,25 +14,29 @@
               <tbody>
                 <tr>
                   <td class="content">
-
                     <p>
-                      <a href="https://rime.co"><img class="brand" src="https://s3.amazonaws.com/rime-mail/inline-image/20141114-191835_logo.png"></a>
+                      <a href="{_app_base_url}"><img class="brand" src="https://s3.amazonaws.com/rime-mail/inline-image/20141114-191835_logo.png" alt="{_app_name} logo"></a>
                     </p>
 
                     <hr>
-                    
-<p>Hi {username} (<a href="{_app_name}/@{username}">@{username}</a>), welcome to {_app_name}!</p>
-
-<p>We listed your sign in details below, make sure you keep them safe.</p>
 
 <p>
-  Username: {username}<br>
-  Email address: {_to_email}
+  <strong>{user_full_name}</strong> (<a href="{_app_base_url/@{user_username}">@{user_username}</a>)
+  
+  added {actor_service}
+</p>
+
+<center><img src="{actor_image_url}"></center>
+
+<p>
+  <strong>{actor_full_name}</strong><br>
+  {actor_description}<br>
+  {actor_url_html}
 </p>
 
 <p>
   Have fun!<br>
-  &mdash; The {_app_name} Team
+  &mdash; The {_app_name} (<a href="{_app_base_url}/@rime">@rime</a>) Team
 </p>
 
                     <hr>
