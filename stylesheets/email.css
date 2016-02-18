@@ -23,7 +23,7 @@
 img { 
   max-width: 100%;
 }
-img.fill { /*display:inline-block; width:100%;*/ }
+img.fill { display:inline-block; width:100%; }
 
 body {
   -webkit-font-smoothing: antialiased; 
