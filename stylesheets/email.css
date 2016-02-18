@@ -257,8 +257,24 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
 
 ------------------------------------------------------ */
 
-img.fit { display:inline-block; width:100%; }
+img { display:inline-block; width: 100%; }
 img.img-circle { border-radius: 50%; }
+img.brand { width: 150px; }
+
+.round {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+}
+.round img {
+  display: block;
+  /* Stretch 
+  height: 100%;
+  width: 100%; */
+  min-width: 100%;
+  min-height: 100%;
+}
 
 hr { margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #eee; box-sizing: content-box; height: 0; }
 
