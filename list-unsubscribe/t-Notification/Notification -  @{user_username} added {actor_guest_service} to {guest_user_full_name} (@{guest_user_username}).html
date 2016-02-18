@@ -6,58 +6,60 @@
     <link rel="stylesheet" type="text/css" href="https://rimeofficial.github.io/mail/stylesheets/email.css">
   </head>
   <body>
-    <table class="main">
-      <tbody>
-        <tr>
-          <td valign="top">
-            <table class="container" align="center">
-              <tbody>
-                <tr>
-                  <td>
-                    <p>
-                      <a href="{_app_base_url}"><img class="brand" src="https://s3.amazonaws.com/postmaster.rime/attachments/20141114-191835_logo.png" alt="{_app_name} logo"></a>
-                    </p>
+    <center>
+      <table class="main">
+        <tbody>
+          <tr>
+            <td valign="top">
+              <table class="container" align="center">
+                <tbody>
+                  <tr>
+                    <td>
+                      <p>
+                        <a href="{_app_base_url}"><img class="brand" src="https://s3.amazonaws.com/postmaster.rime/attachments/20141114-191835_logo.png" alt="{_app_name} logo"></a>
+                      </p>
 
-                    <hr>
+                      <hr>
 
-<p>
-  <strong>{user_full_name}</strong> (<a href="{_app_base_url/@{user_username}">@{user_username}</a>)
-  
-  added {actor_guest_service} to {guest_user_full_name} (<a href="{_app_base_url}/{guest_user_username}">@{guest_user_username}</a>)
-</p>
+  <p>
+    <strong>{user_full_name}</strong> (<a href="{_app_base_url/@{user_username}">@{user_username}</a>)
+    
+    added {actor_guest_service} to {guest_user_full_name} (<a href="{_app_base_url}/{guest_user_username}">@{guest_user_username}</a>)
+  </p>
 
-<center><img src="{actor_guest_image_url}"></center>
+  <center><img src="{actor_guest_image_url}"></center>
 
-<p>
-  <strong>{actor_guest_full_name}</strong><br>
-  {actor_guest_description}<br>
-  {actor_guest_url_html}
-</p>
+  <p>
+    <strong>{actor_guest_full_name}</strong><br>
+    {actor_guest_description}<br>
+    {actor_guest_url_html}
+  </p>
 
-<br>
+  <br>
 
-<p>
-  Have fun!<br>
-  &mdash; The {_app_name} (<a href="{_app_base_url}/@rime">@rime</a>) Team
-</p>
+  <p>
+    Have fun!<br>
+    &mdash; The {_app_name} (<a href="{_app_base_url}/@rime">@rime</a>) Team
+  </p>
 
-                    <hr>
+                      <hr>
 
-                    <p class="footer">
-                      &copy; {_app_name}, IIT Bombay, India, MH 400076.
-                      <br>
-                      {_app_name} respects your privacy. Read our online <a target="_blank" href="{_app_base_url}/about/privacy" target="_blank">Privacy statement</a>.
-                      <br>
-                      <br>
-                      This message was sent to {_to_email}. You can <a href="{_unsubscribe_link}" target="_blank">unsubscribe</a> from these emails. You can also change your preferences by visiting your Email Options in your {_app_name} account at <a href="{_app_base_url}/settings/notifications" target="_blank">settings/notifications</a>.
-                    </p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+                      <p class="footer">
+                        &copy; {_app_name}, IIT Bombay, India, MH 400076.
+                        <br>
+                        {_app_name} respects your privacy. Read our online <a target="_blank" href="{_app_base_url}/about/privacy" target="_blank">Privacy statement</a>.
+                        <br>
+                        <br>
+                        This message was sent to {_to_email}. You can <a href="{_unsubscribe_link}" target="_blank">unsubscribe</a> from these emails. You can also change your preferences by visiting your Email Options in your {_app_name} account at <a href="{_app_base_url}/settings/notifications" target="_blank">settings/notifications</a>.
+                      </p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </center>
   </body>
 </html>
