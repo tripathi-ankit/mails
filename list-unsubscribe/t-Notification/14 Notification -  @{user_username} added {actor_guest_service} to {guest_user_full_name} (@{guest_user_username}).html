@@ -22,18 +22,20 @@
                       <hr>
 
   <p>
-    <strong>{user_full_name}</strong> (<a href="{_app_base_url/@{user_username}">@{user_username}</a>)
+    <strong>{user_full_name}</strong> (<a href="{_app_base_url}/@{user_username}">@{user_username}</a>)
     
-    added {actor_service}
+    added {actor_guest_service} to {guest_user_full_name} (<a href="{_app_base_url}/{guest_user_username}">@{guest_user_username}</a>)
   </p>
 
-  <center><img src="{actor_image_url}"></center>
+  <center><img src="{actor_guest_image_url}"></center>
 
   <p>
-    <strong>{actor_full_name}</strong><br>
-    {actor_description}<br>
-    {actor_url_html}
+    <strong>{actor_guest_full_name}</strong><br>
+    {actor_guest_description}<br>
+    {actor_guest_url_html}
   </p>
+
+  <br>
 
   <p>
     Have fun!<br>
