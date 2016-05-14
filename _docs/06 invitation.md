@@ -1,8 +1,8 @@
 ---
-title: Invitation from {user_full_name} (@{user_username})
+title: 6-Invitation from {user_full_name} (@{user_username})
 ---
 
-Hi {to_name},
+Hi **{to_name}**,
 
 I am using [{_app_name}]({_app_base_url}) to connect  my multiple social media platforms like Facebook, Instagram, Tumblr, Vimeo, Youtube etc.
 
@@ -15,7 +15,7 @@ It creates **unique online identity** on the internet and keep me updated about 
 <a class="btn btn-block" href="{_app_base_url}/?invited_by='.{user_username}">Click here to join!!</a>
 <br>
 
-<a href="{_app_base_url}/?invited_by={user_username}"><img src="https://s3.amazonaws.com/postmaster.rime/attachments/20140718-183105_Untitled-5.png"></a>
+[![](https://s3.amazonaws.com/postmaster.rime/attachments/20140718-183105_Untitled-5.png)]({_app_base_url}/?invited_by={user_username})
 
 <br>
 <br>

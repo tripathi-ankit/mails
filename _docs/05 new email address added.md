@@ -1,8 +1,8 @@
 ---
-title: A new email address added to your account
+title: 5-A new email address added to your account
 ---
 
-Hi {_to_name} ([@{username}]({_app_base_url}/@{username})),
+Hi **{_to_name}** ([@{username}]({_app_base_url}/@{username})),
 
 You have added an email address.  
 New email address: **{new_email_address}**

@@ -1,20 +1,14 @@
 ---
-title: Notification - {user_full_name} (@{user_username}) followed you
+title: 10-Notification - {user_full_name} (@{user_username}) followed you
 ---
 
-<p>
-<strong>{user_full_name}</strong> (<a href="{_app_base_url}/@{user_username}">@{user_username}</a>)
+{% comment %}
+  Hi **{notif_full_name}** ([@{notif_username}]({_app_base_url}/@{notif_username})),
+{% endcomment %}
 
-is now following
+**{user_full_name}** ([@{user_username}]({_app_base_url}/@{user_username})) is now following you
 
-{notif_full_name} (<a href="{_app_base_url}/@{notif_username}">@{notif_username}</a>)
-</p>
-
-<br>
-
-<p>
-Have fun!<br>
-&mdash; The {_app_name} (<a href="{_app_base_url}/@rime">@rime</a>) Team
-</p>
+Have fun!  
+&mdash; The {_app_name} ([@rime]({_app_base_url}/@rime])) Team
 
 {% include email-footer.html %}

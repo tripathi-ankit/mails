@@ -1,24 +1,16 @@
 ---
-title: Notification - {user_full_name} (@{user_username}) added {actor_service}
+title: 13-Notification - {user_full_name} (@{user_username}) added {actor_service}
 ---
 
-<p>
-<strong>{user_full_name}</strong> (<a href="{_app_base_url}/@{user_username}">@{user_username}</a>)
+**{user_full_name}** ([@{user_username}]({_app_base_url}/@{user_username})) added {actor_service}
 
-added {actor_service}
-</p>
+![]({actor_image_url})
 
-<center><img src="{actor_image_url}"></center>
-
-<p>
-<strong>{actor_full_name}</strong><br>
-{actor_description}<br>
+**{actor_full_name}**  
+{actor_description}  
 {actor_url_html}
-</p>
 
-<p>
-Have fun!<br>
-&mdash; The {_app_name} (<a href="{_app_base_url}/@rime">@rime</a>) Team
-</p>
+Have fun!  
+&mdash; The {_app_name} ([@rime]({_app_base_url}/@rime])) Team
 
 {% include email-footer.html %}

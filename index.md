@@ -18,3 +18,5 @@ title: Home
     {% endif %}
   {% endfor %}
 </ul>
+
+`upload` folder is used to store attachments for drafting purpose only

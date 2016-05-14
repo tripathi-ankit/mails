@@ -1,8 +1,8 @@
 ---
-title: Create new account
+title: 3-Create new account
 ---
 
-Hi {_to_name},
+Hi **{_to_name}**,
 
 To create a new account click
 
