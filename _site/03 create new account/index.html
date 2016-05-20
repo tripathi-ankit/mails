@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="/mails/stylesheets/email.css">
+  </head>
+  <body>
+    <center>
+      <table class="main">
+        <tbody>
+          <tr>
+            <td valign="top">
+              <table class="container" align="center">
+                <tbody>
+                  <tr>
+                    <td>
+                      <p>
+                        <a href="{_app_base_url}"><img class="brand" src="https://s3.amazonaws.com/postmaster.rime/attachments/20141114-191835_logo.png" alt="{_app_name}"></a>
+                      </p>
+
+                      <hr>
+
+                      <p>Hi <strong>{_to_name}</strong>,</p>
+
+<p>To create a new account click</p>
+
+<p><a class="btn btn-block" href="{_app_base_url}/auth/create-account/{email_username}/{email_domain}/{verify_email_secret}?full_name={_to_name}">Create new account</a></p>
+
+<p>Happy {_current_day}!<br />
+— The {_app_name} (<a href="{_app_base_url}/@rime]">@rime</a>) Team</p>
+
+
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </center>
+  </body>
+</html>

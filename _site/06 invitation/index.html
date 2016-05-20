@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="/mails/stylesheets/email.css">
+  </head>
+  <body>
+    <center>
+      <table class="main">
+        <tbody>
+          <tr>
+            <td valign="top">
+              <table class="container" align="center">
+                <tbody>
+                  <tr>
+                    <td>
+                      <p>
+                        <a href="{_app_base_url}"><img class="brand" src="https://s3.amazonaws.com/postmaster.rime/attachments/20141114-191835_logo.png" alt="{_app_name}"></a>
+                      </p>
+
+                      <hr>
+
+                      <p>Hi <strong>{to_name}</strong>,</p>
+
+<p>I am using <a href="{_app_base_url}">{_app_name}</a> to connect  my multiple social media platforms like Facebook, Instagram, Tumblr, Vimeo, Youtube etc.</p>
+
+<p>It creates <strong>unique online identity</strong> on the internet and keep me updated about what my favourite people are sharing on the internet through one place.</p>
+
+<p><strong>Its new way to explore the internet.</strong></p>
+
+<p><br /></p>
+
+<p><a class="btn btn-block" href="{_app_base_url}/?invited_by='.{user_username}">Click here to join!!</a>
+<br /></p>
+
+<p><a href="{_app_base_url}/?invited_by={user_username}"><img src="https://s3.amazonaws.com/postmaster.rime/attachments/20140718-183105_Untitled-5.png" alt="" /></a></p>
+
+<p><br />
+<br /></p>
+
+<div class="media">
+  <table>
+    <tbody>
+      <tr>
+        <td class="media-object"><img class="img-circle" src="{user_profile_image_url}" /></td>
+        <td>
+          <p>
+            <strong>{user_full_name}</strong> (@<a href="{_app_base_url}/@{user_username}">{user_username}</a>)<br />
+            {user_bio}<br />
+            {user_location}
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<hr />
+
+<p class="footer">
+  &copy; {_app_name}, IIT Bombay, India, MH 400076.
+  <br />
+  {_app_name} respects your privacy. Read our online <a target="_blank" href="{_app_base_url}/about/privacy">Privacy statement</a>.
+  <br />
+  <br />
+  This message was sent to {_to_email}. You can <a href="{_unsubscribe_link}" target="_blank">unsubscribe</a> from these emails. You can also change your preferences by visiting your Email Options in your {_app_name} account at <a href="{_app_base_url}/settings/notifications" target="_blank">settings/notifications</a>.
+</p>
+
+
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </center>
+  </body>
+</html>
