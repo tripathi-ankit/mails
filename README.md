@@ -1,2 +1,2 @@
 # Mails
-Messages for [Postmaster](./postmaster)
+Messages for [Postmaster](https://github.com/RimeOfficial/postmaster)
