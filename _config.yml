@@ -11,7 +11,7 @@ title:            Mails
 description:      'Messages for <a href="/postmaster">Postmaster</a>'
 baseurl:          /mails
 
-asset_url:        https://static.rime.co
+asset_url:        https://graupel.s3.amazonaws.com
 
 # Custom vars
 version:          1.0.0
